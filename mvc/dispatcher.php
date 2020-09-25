@@ -25,7 +25,7 @@ class Dispatcher
 
         $nameCT = "MVC\\Controllers\\" . ucfirst($this->request->controller) . "Controller";
 
-        $controller = new TasksController();
+        $controller = new $nameCT;
 
         return $controller;
     }
