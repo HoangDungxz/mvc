@@ -1,0 +1,10 @@
+{
+    "name": "admin/mvc",
+    "description": "Autoload class in project",
+    "autoload": {
+        "psr-4": {
+           "MVC\\": ""
+        }
+    },
+    "require": {}
+}
